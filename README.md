@@ -22,7 +22,7 @@ To run the project, please follow these steps:
    - scikit-learn
    - imbalanced-learn
 
-3. **Run the Script**: Execute the provided Python script Prediction_of_Credit_Card_fraud.ipynb to train and evaluate the model.
+3. **Run the Script**: Execute the provided Python script PredictionOfCreditCardFraud.ipynb to train and evaluate the model.
 
 ## Data Sources
 The dataset `creditcard.csv` was used for this project. It contains the following attributes:
@@ -48,7 +48,7 @@ The Python code performs the following tasks:
     ```
 2. Clone the repository and navigate to the project directory.
 3. Ensure the `creditcard.csv` dataset is placed in the same directory.
-4. Run the Python script (`Prediction_of_Credit_Card_fraud.ipynb`).
+4. Run the Python script (`PredictionOfCreditCardFraud.ipynb`).
 6. The output will include cross-validation scores, model evaluation metrics, and additional visualizations.
 
 ### Reproducing Results
@@ -60,6 +60,6 @@ For deployment in AWS SageMaker, you can use the trained model (credit_card_frau
 ---
 
 ## Project Structure
-- `CreditCardFraudDetection.ipynb`: Main Python script for model building and evaluation.
+- `PredictionOfCreditCardFraud.ipynb`: Main Python script for model building and evaluation.
 - `creditcard.csv`: Dataset containing credit card transactions.
-- `credit_card_fraud_detection_model.pkl`: Saved trained model.
+- `Prediction_Of_Credit_Card_Fraud.pkl`: Saved trained model.
